@@ -10,6 +10,7 @@ import Home from './Home';
 import Products from "./Products";
 import SingleProduct from "./SingleProduct";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -52,6 +53,7 @@ const App = () => {
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
+        <Footer />
       </Router>
     </ThemeProvider>
 
